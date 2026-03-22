@@ -98,6 +98,27 @@ pip install -r requirements.txt
 ```bash
 python3 main.py
 ```
+### Если не работает
+#### (error: externally-managed-environment) - Linux
+```bash
+sudo apt install python3-requests
+```
+```
+sudo apt install python3-venv
+```
+```
+python3 -m venv .venv
+```
+```
+source .venv/bin/activate
+```
+```
+pip install requests
+```
+#### на случай деактивации;
+```
+deactivate
+```
 
 > ℹ️ **Примечание:** При старте бот проверит версию базы данных и выведет в лог информацию о статусе миграций (успех/ошибка).
 
