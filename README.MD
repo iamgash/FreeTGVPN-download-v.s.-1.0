@@ -175,5 +175,12 @@ deactivate
 **Разработчик** [iamgash]
 
 Если бот оказался вам полезен, вы можете поддержать проект донатом на развитие:
-💰 **USDT (Ton):** `UQDZuD725BodiUC7GHzj_xMIXCDXA3PRHB3uqxkK1bUozzgX4`
-💰 **USDT (Bep20 - BSC):** `0x9091CD2CCcef24e3F4f280A4192a75ea55536189`
+💰 **USDT (Ton):** 
+'''
+`UQDZuD725BodiUC7GHzj_xMIXCDXA3PRHB3uqxkK1bUozzgX4`
+'''
+
+💰 **USDT (Bep20 - BSC):** 
+'''
+`0x9091CD2CCcef24e3F4f280A4192a75ea55536189`
+'''
