@@ -59,9 +59,8 @@ def generate_json(config: Dict[str, Any]) -> str:
 
 def _get_remark(config: Dict[str, Any]) -> str:
     """Формирует имя подключения (remark)."""
-    remark_part = config.get('inbound_name', 'VPN')
-    email_part = config.get('email', '')
-    return f"{remark_part}-{email_part}"
+    remark_part = config.get('FreeTGVPN', 'inbound_name')
+    return f"{remark_part}"
 
 
 def _parse_transport_params(stream: dict, params: dict) -> None:
